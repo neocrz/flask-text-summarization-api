@@ -39,7 +39,7 @@ Existem duas maneiras de configurar e executar a API: utilizando o ambiente Nix 
     python app.py
     ```
 
-    A API Flask será iniciada em `http://localhost:5000`. O modo `debug=True` está habilitado, o que é útil durante o desenvolvimento, pois o servidor será recarregado automaticamente em caso de alterações no código.
+    A API Flask será iniciada em `http://localhost:5000`. 
 
 ### Sem utilizar Nix (Configuração manual)
 
