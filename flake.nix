@@ -21,10 +21,13 @@
             python311
           ] ++
             (with pkgs.python311Packages; [
-              flask
+              flask-restful
               pip
               playwright
               venvShellHook
+
+              nltk
+              requests
           ]);
           postVenvCreation = ''
             unset SOURCE_DATE_EPOCH
