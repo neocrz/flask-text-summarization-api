@@ -131,10 +131,3 @@ Se ocorrer algum erro inesperado durante o processamento do texto, a API retorna
 }
 ```
 
-## Arquivo `flake.nix`
-
-O arquivo `flake.nix` é utilizado para fornecer um ambiente de desenvolvimento Nix reproduzível. Ele define as dependências do projeto (Python e bibliotecas Python) e garante que todos os desenvolvedores trabalhando no projeto utilizem o mesmo ambiente, evitando problemas de "funciona na minha máquina".
-
-Ao utilizar `nix develop`, você entra em um shell com todas as dependências configuradas, conforme especificado no `flake.nix`. Isso simplifica a configuração do ambiente de desenvolvimento e garante a consistência.
-
-
