@@ -79,7 +79,7 @@ A API possui um único endpoint `/summarize` que aceita requisições HTTP POST 
     ```json
     {
         "text": "Seu texto longo aqui para ser resumido.",
-        "num_sentences": 4  // Opcional: número de sentenças no resumo (padrão é 4)
+        "num_sentences": 4
     }
     ```
 
