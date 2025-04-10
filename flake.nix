@@ -2,8 +2,8 @@
   description = "A Nix-flake-based Python development environment";
 
   inputs = {
-    # nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixpkgs.url = "pinned-nixpkgs";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    # nixpkgs.url = "pinned-nixpkgs";
   };
   
   outputs = { self, nixpkgs }:
